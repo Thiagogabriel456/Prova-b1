@@ -1,0 +1,181 @@
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F1ED; /* Light beige color */
+}
+
+/* Header style */
+header {
+    background-color: #a44c64; /* Dark rose color */
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-content {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #F2F1ED; /* Matches the background of the body */
+}
+
+.header-content h1 {
+    font-size: 64px;
+    color: #C7C7C7; /* Light gray for the header text */
+    font-weight: 100;
+}
+
+main{
+    margin: 80px;
+}
+
+
+/* Reset default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F2F1ED; /* Light beige color */
+}
+
+/* Header style */
+header {
+    background-color: #a44c64; /* Dark rose color */
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header-content {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #F2F1ED; /* Matches the background of the body */
+}
+
+.header-content h1 {
+    font-size: 64px;
+    color: #C7C7C7; /* Light gray for the header text */
+    font-weight: 100;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 100px 4%;
+    background-color: #f1f0e2;
+    
+}
+
+.founder-info {
+    padding: 100px 4%;
+    text-align: justify;
+    gap: 40px;
+    
+}
+
+.founder-info h2 {
+    color: #a44c64; /* Dark rose for title */
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.founder-info p {
+    color: #444; /* Darker text color */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Grid for biography, office, referrals, etc. */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.grid-item {
+    background-color: #a44c64; /* Light pink for grid boxes */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #C7C7C7;
+}
+
+.grid-item a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #a44c64; /* Dark rose for links */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Placeholder for images */
+.image-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #C7C7C7; /* Light gray placeholder for images */
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Additional styling for correct spacing */
+.grid-item a {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f1f0e2; /* Same as title color */
+    text-decoration: none;
+}
+
+.grid-item:hover {
+    background-color: #D0B4C1; /* Slight hover effect */
+}
+
+header-content h1 {
+    color: #a44c64;
+}
